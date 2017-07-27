@@ -1,11 +1,12 @@
 ---
 title: "Bayesian modeling and prediction for movies"
 output: 
-  html_document: 
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
-    css: style.css
+   github_document
+#  html_document: 
+#    fig_height: 4
+#    highlight: pygments
+#    theme: spacelab
+#    css: style.css
 ---
 
 ### Load packages
@@ -109,7 +110,7 @@ suppressMessages(library(GGally))
 ### Load data
 
 ```{r load-data}
-setwd("~/coursera/bayesian")
+setwd("~/coursera/bayesian-movie-prediction")
 load("movies.Rdata")
 ```
 ## Part 1: Data
